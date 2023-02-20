@@ -43,6 +43,6 @@ struct TitleView: View {
 
 struct TitleView_Previews: PreviewProvider {
     static var previews: some View {
-        TitleView(landmark: landmarks[0])
+        TitleView(landmark: ModelData().landmarks[0])
     }
 }
